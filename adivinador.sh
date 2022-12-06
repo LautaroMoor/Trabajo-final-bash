@@ -3,7 +3,7 @@ TEXTO="ESTE ES EL PROGRAMA ADIVINADOR"
 echo $TEXTO
 CONTADOR=0
 
-for i in {1..10} 
+for i in {1..11} 
 do
 	CONTADOR=$i
 	echo "Inserte un numero:"
