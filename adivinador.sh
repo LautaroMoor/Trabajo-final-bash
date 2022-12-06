@@ -23,6 +23,7 @@ do
 		break
 	fi
 done
+
 if [ "$CONTADOR" -le "5" ] 
 then
 	echo "BIEEEEN"
