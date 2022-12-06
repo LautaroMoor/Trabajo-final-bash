@@ -2,6 +2,7 @@ ALEATORIO=$(( $RANDOM % 50 + 1 ))
 TEXTO="ESTE ES EL PROGRAMA ADIVINADOR"
 echo $TEXTO
 CONTADOR=0
+
 for i in {1..10} 
 do
 	CONTADOR=$i
@@ -12,7 +13,6 @@ do
 		echo "Tienes que insertar un numero entre 1 y 50."
 		CONTADOR=11
 		break
-
 	elif [ "$NUMERO" -lt "$ALEATORIO" ] 
 	then
 		echo "El numero random es mayor al que ingresaste. Vuelva a intentar."

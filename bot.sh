@@ -1,6 +1,7 @@
 echo "Buen día, $USER"
 echo "=-=-=-=-=-=-=-=-=-=-=-=-=-="
 OPCION=0
+
 while [ "$OPCION" -ne "3" ]
 do
 	echo "MENU"
@@ -25,7 +26,6 @@ do
 			;;
 	esac
 done
-
 
 echo "Adios, $USER."	
 sleep 3;
